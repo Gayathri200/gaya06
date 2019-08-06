@@ -1,0 +1,9 @@
+x,y=map(str,input().split())
+a=len(x)
+b=len(y)
+if(a!=3):
+  print("no")
+elif(a==b):
+  print("yes")
+elif(a!=b):
+  print("no")    
